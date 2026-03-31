@@ -18,12 +18,17 @@
     ],
     'data': [
         'views/menu-items.xml',
+        'views/login-template.xml',
     ],
     'installable': True,
     'application': True,
     'assets': {
-        'web.assets_frontend': [],
-        'web.assets_backend': [],
+        'web.assets_frontend': [
+            'atlasprime/static/src/js/change_title.js',
+        ],
+        'web.assets_backend': [
+            'atlasprime/static/src/js/change_title.js',
+        ],
     },
     'license': 'LGPL-3',
 }

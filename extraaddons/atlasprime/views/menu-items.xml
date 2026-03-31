@@ -14,4 +14,9 @@
     <record id="utm.menu_link_tracker_root" model="ir.ui.menu">
         <field name="active">False</field>
     </record>
+
+    <!-- Make the sales menu item the first sequence -->
+    <record id="sale.sale_menu_root" model="ir.ui.menu">
+        <field name="sequence">1</field>
+    </record>
 </odoo>

@@ -5,7 +5,7 @@
 (function () {
     "use strict";
     // The title you want to force
-    const FORCED_TITLE = "Aloette Africa"; // or "" for blank
+    const FORCED_TITLE = "Atlas Prime Mercantile"; // or "" for blank
 
     function setTitle() {
         if (document.title !== FORCED_TITLE) {
